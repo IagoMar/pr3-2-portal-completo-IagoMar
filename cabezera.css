@@ -1,0 +1,47 @@
+*  {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6; /* Espaciado entre líneas */
+
+}
+
+header {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #d63d3d;
+color: whitesmoke;
+}
+
+body {
+    background-color: #f4b2b2;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+    
+}
+ul a:hover {
+    transition: color 0,4s;
+    color: rgb(247, 233, 153);
+}
+
+ul a {
+    margin-left: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.COPYRIGHT{
+    text-align: end;
+    margin-right: 20px;
+}
+
+.direccion{
+    text-align: center;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,171 @@
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px; 
+    color: #da3a3a;
+}
+
+section div {
+    display: flex;
+    justify-content: start;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    border: solid 3px toma;
+    margin: auto;
+    margin-top: 25px;
+    align-items: center;
+    width: 45%;
+}
+
+article img:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+article h4 {
+    width: 83%;
+    text-align: center;
+    background-color: #d63d3d;
+    color: antiquewhite;
+}
+
+article p {
+    text-align: start;
+    width: 89%;
+    background-color: #f4b2b5;
+    font-size: 14px;
+    padding: 5px 1%;
+    color: #db0000;
+}
+
+.pegi {
+    background-color: rgb(241, 203, 203);
+    width: 81%;
+    text-align: center;
+    font-size: 12px;
+    color: crimson;
+}
+
+.actores {
+    background-color: rgb(255, 104, 104);
+    padding-bottom: 1%;
+}
+
+.actores img:hover {
+    transition: 0.5s;
+    filter: brightness(1.2);
+    transform: scale(1.3);
+}
+
+.actores img {
+    padding-bottom: 5%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container-series-festivales {
+    display: flex;
+    width: 100%;
+}
+
+.container-series-festivales article {
+    display: flex;
+    flex-direction: column;
+    border: solid 3px toma;
+    margin: auto;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.festivales {
+    flex: 3;
+}
+
+
+.container-series {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  
+
+    
+    
+}
+
+.series article {
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+    
+
+    
+    
+}
+
+.series img {
+    justify-content: center;
+}
+
+.series h4 {
+    display: flex;
+    width: 40%;
+    text-align: center;
+    background-color: #d63d3d;
+    color: antiquewhite;
+   
+}
+
+.series p {
+    width: 40%;
+}
+
+.loMasVisto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container-loMasVisto img {
+    margin: 0 10px 20px;
+}
+.container-loMasVisto img:hover {
+    transition: 0.5s;
+    filter: brightness(1.2);
+    transform: scale(1.3);
+
+
+ 
+}
+
+.tituloSeries{
+    justify-self: center;
+    text-align: center;
+
+}.tituloFestivales{
+    justify-self: center;
+    text-align: center;
+}
+.posicion {
+top: 40px;
+Left: 5px;
+background-color: rgb(192, 51, 51);
+color: rgba(255, 243, 243, 0.93); 
+font-size: 14;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+align-items: center; 
+justify-content: center;
+display: flex;
+
+}
+
+

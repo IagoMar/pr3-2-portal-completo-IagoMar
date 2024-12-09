@@ -1,0 +1,76 @@
+section {
+    display: flex;
+    size: 100%;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    border: solid 3px toma;
+    margin: auto;
+    margin-top: 25px;
+    align-items: center;
+    width: 45%;
+    flex: 0.60;
+}
+
+h2{
+    color: white;
+    padding-bottom: 15px;
+    
+
+}
+.descripcion {
+   margin-top: 3%;
+    background-color: #da3a3a;
+    color: white;
+     border: solid 1px ;
+     text-align: center;
+ 
+   
+}
+.duracion{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20;
+}
+
+.detalles {
+    align-items: center;
+    flex: 0;
+    text-align: center;
+    border-left: solid;
+}
+
+.trailer{
+    background-color: white;
+    padding: 2%;
+    border: solid ;
+    border-radius: 10%;
+    border-left: solid;
+    
+}
+.trailer:hover{
+    transition: 0.5ms;
+    background-color: black;
+    color: white;
+    
+}
+
+.repartos{
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+
+
+}
+
+.actoress p{
+    padding: 20px;
+   
+}
+
+
+
+
+
+
